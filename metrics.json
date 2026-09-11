@@ -1,0 +1,120 @@
+{
+  "model_selected": "logistic_regression",
+  "cv_accuracy_by_model": {
+    "logistic_regression": 1.0,
+    "linear_svm": 1.0,
+    "naive_bayes": 0.9974025974025974
+  },
+  "test_accuracy": 1.0,
+  "classification_report": {
+    "anger": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "anxiety": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "depression": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "happy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "neutral": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "stress": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 96.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 96.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      16,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      16
+    ]
+  ],
+  "labels": [
+    "anger",
+    "anxiety",
+    "depression",
+    "happy",
+    "neutral",
+    "stress"
+  ],
+  "n_train": 384,
+  "n_test": 96
+}
